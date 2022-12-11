@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - entry of quote
- *
  * Return 0 success
  */
 
