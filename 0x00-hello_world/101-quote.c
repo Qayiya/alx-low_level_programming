@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - entry of quote
- * Return 0 success
+ *main - entry of quote
+ *Return 0 success
  */
 
 int main(void)
