@@ -2,6 +2,8 @@
 /**
  * main - Entry print alphabet exluding e and q
  *
+ * description - Remove e and q
+ *
  * Return 0 (success)
  */
 int main(void)
