@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	int tens;
 	int ones;
 
 	for (ones =  1; ones <= 9; ones++)
