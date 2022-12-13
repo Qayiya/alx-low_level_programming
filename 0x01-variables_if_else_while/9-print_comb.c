@@ -13,8 +13,7 @@ int main(void)
 
 	for (ones =  1; ones <= 9; ones++)
 	{
-		putchar(ones + '0');
-			if (tens < 8)
+		putchar(ones);
 			{
 				putchar(',');
 				putchar(' ');
