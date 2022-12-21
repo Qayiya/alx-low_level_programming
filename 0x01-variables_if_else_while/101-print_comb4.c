@@ -19,8 +19,7 @@ int main(void)
 				putchar(h + '0');
 				putchar(t + '0');
 				putchar(i + '0');
-				if (h < 9)
-				if (t < 9)
+				if (i == '9' && t == '8' && h == '7')
 				{
 					putchar(',');
 					putchar(' ');
