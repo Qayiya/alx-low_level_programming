@@ -2,16 +2,15 @@
 
 /**
  * main - print last digit
- *
+ * @num: last number to be printed
  * Return: 0 success
  */
-int print_last_digit(int)
+int print_last_digit(int num)
 {
-	int r;
+	int last_digit(int num)
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	return (0);
+	last_digit = last_digit < 0 ? -1 * last_digit : last_digit;
+	_putchar(last_digit + '0');
+
+	return (last_digit < 0 ? -1 * last_digit : last_digit);
 }
