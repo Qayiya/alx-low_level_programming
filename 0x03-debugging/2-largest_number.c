@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest integer
+ * largest_number - returns the largest number
  * @a: first integer
  * @b: second integer
- * @c: thrird integer
+ * @c: third integer
  * Return: largest number
  */
 
@@ -18,7 +18,7 @@ int largest_number(int a, int b, int c)
 			largest = a;
 		else if (a > c)
 			largest = a;
-		else 
+		else
 			largest = c;
 	}
 	else
