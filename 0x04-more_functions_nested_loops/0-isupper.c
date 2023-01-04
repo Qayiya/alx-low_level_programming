@@ -5,7 +5,7 @@
  * @c: variable text
  * Return:always zero
  */
-int _ispeer(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
