@@ -3,17 +3,16 @@
 /**
  * print_most_numbers - print the numbers
  *
- * Return: success
+ * Return: 0 success
  */
 void print_most_numbers(void)
 {
-	int x;
+	int x = 0;
 
-	for (x = 0; x < 10; x++)
+	for (x < 10)
 	{
 		if (x != 2 && x != 4)
-			putchar(x + '0');
+			putchar(x++ + '0');
 	}
 	putchar('\n');
-	return (0);
 }
