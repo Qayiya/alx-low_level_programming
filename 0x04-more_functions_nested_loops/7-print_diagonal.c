@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - print a diagonal line
+ * @n: diagonal should end with n
  * Return: 0 success
  */
 

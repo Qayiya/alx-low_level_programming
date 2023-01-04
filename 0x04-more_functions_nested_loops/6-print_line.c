@@ -2,6 +2,7 @@
 
 /**
  * print_line - print the number
+ * @n: the number of '_' to be printed
  * Return: 0 success
  */
 
