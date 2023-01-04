@@ -4,7 +4,6 @@
  * print_numbers - print given numbers
  * Return: success
  */
-
 void print_numbers(void)
 {
 	int x;
