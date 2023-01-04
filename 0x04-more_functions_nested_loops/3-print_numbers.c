@@ -2,15 +2,14 @@
 
 /**
  * print_numbers - print seleceted numbers
- * Return: success
+ * Return: 0 success
  */
 void print_numbers(void)
 {
-	int x;
+	int x = 0;
 
-	for (x >= 0; x < 10; x++)
-	{
-	putchar(x + '0');
-	}
+	while (x < 10)
+		putchar(x++ + '0');
+
 	putchar('\n');
 }
