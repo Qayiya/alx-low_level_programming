@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_square - print a square using #
- * @size - determine size of square
- * Return: 0 success
+ * print_square - print a square
+ * @size: size of square
  */
-
 void print_square(int size)
 {
 	if (size <= 0)
