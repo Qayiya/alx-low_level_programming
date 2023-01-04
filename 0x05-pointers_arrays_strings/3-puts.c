@@ -4,7 +4,7 @@
  * _puts - prints a string follow by
  * a new line
  * @str: pointer to the string to print
- * Return: success 0
+ * Return: void
  */
 void _puts(char *str)
 {
@@ -15,5 +15,5 @@ void _puts(char *str)
 		putchar(str[i]);
 		i++;
 	}
-	putchar('\n')
+	putchar('\n');
 }
